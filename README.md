@@ -1,3 +1,5 @@
+This extremely poor version is for testing purposes only.
+
 # CLI IDS: Phát hiện bất thường mạng (ML + Sigma)
 
 Công cụ CLI bằng Python để phát hiện bất thường trong mạng bằng hai cách:
@@ -206,4 +208,5 @@ python -m cli_ids --action-log .\logs\act.log --result-log .\logs\res.log --erro
 
 ### Log sự kiện capture (JSONL)
 - Mỗi event sau khi capture/gộp bin sẽ được ghi thêm vào `./logs/captured_events.jsonl` (mặc định).
+
 - Đổi đường dẫn bằng option toàn cục `--capture-event-log` hoặc trong YAML `logs.capture_events`.
