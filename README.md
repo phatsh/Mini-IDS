@@ -3,7 +3,7 @@ This extremely poor version is for testing purposes only.
 # CLI IDS: Phát hiện bất thường mạng (ML + Sigma)
 
 Công cụ CLI bằng Python để phát hiện bất thường trong mạng bằng hai cách:
-- Mô hình học máy LSTM `.h5` (Keras/TensorFlow)
+- Mô hình học máy LSTM.
 - Luật Sigma (YAML) áp cho log JSONL
 
 Bạn có thể chạy riêng lẻ hoặc kết hợp cả hai. Công cụ không phụ thuộc vào SIEM cụ thể; nó đọc file JSON Lines (một event JSON mỗi dòng) hoặc CSV cho phần ML.
